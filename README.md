@@ -4,8 +4,8 @@ You can get a polygonscan key at https://polygonscan.com/ .
 
 # .env requirement:
 ```
-TRANSACTION_HASH = ".."
-POLYGONSCAN_KEY = ".."
+TRANSACTION_HASH = ".." # hash for the transaction
+POLYGONSCAN_KEY = ".."  # key for accessing polygonscan services (needed for retrieving verified abi and sourcecode)
 ```
 
 # Installation and Running

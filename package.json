@@ -1,0 +1,18 @@
+{
+  "name": "polygon-bridge",
+  "version": "0.0.1",
+  "description": "Polygon bridge implementation using Matic RPC.",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "mkdir logs; touch .env;",
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Diego Correa T. <algoritmia@labormedia.cl>",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "solc": "^0.8.6",
+    "web3": "^1.5.1"
+  }
+}
